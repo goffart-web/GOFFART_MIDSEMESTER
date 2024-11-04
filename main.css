@@ -5,6 +5,7 @@ nav{
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 10px;
+    text-align:center;  
 }
 a{
     color: white;
@@ -17,11 +18,14 @@ a{
 
 }
 a:hover{
-    color: rgba(0, 238, 255, 0.774);
+    background:linear-gradient(to left,rgba(0, 255, 136, 0.719),rgb(251, 255, 0) );
+    border-radius: 25px;
 }
 q{
     align-items: center;
 }
-nav{
-    text-align:center;  
+body{
+    background:linear-gradient(to left,rgba(33, 197, 107, 0.863),rgb(240, 236, 22) );
+   font-size: 18px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
